@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.dev.mytbt"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '28.0.3'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-v4:27.1.1'
+    // Google play services
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-places:16.0.0'
+    // ViewModel and LiveData
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+    // API Communication (retrofit)
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-simplexml:2.3.0'
+    // xml converter
+    implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    // retrieve response as string
+    // Offline Routing
+    implementation('com.graphhopper:graphhopper-core:0.10.alpha3') {
+        exclude group: 'com.google.protobuf', module: 'protobuf-java'
+        exclude group: 'org.openstreetmap.osmosis', module: 'osmosis-osm-binary'
+        exclude group: 'org.apache.xmlgraphics', module: 'xmlgraphics-commons'
+    }
+    // Svg Rendering
+    implementation 'com.caverock:androidsvg:1.2.2-beta-1'
+    implementation 'com.android.support:gridlayout-v7:27.1.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+}

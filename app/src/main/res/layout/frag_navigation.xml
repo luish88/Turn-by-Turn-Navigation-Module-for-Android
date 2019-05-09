@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragNavigation">
+
+
+    <org.oscim.android.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--
+        <org.osmdroid.views.MapView android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    -->
+
+    <include
+        android:id="@+id/navBar"
+        layout="@layout/bar_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/pbThrobber"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+            android:id="@+id/llNavButtonsCanvas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnViewFullRoute"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_round"
+                app:srcCompat="@drawable/ic_expand"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/btnFocusUser"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_round"
+                app:srcCompat="@drawable/ic_focus"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/btnChangeMode"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_round"
+                app:srcCompat="@drawable/ic_mode_tbt"
+                tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llUserArrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ivUserArrow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/mk_user_arrow"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/vRouteDetails"
+        layout="@layout/list_route_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

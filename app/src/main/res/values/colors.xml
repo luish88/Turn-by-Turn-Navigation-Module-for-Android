@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main App Colors -->
+    <color name="colorPrimary">#00A287</color>
+    <color name="colorPrimaryDark">#007D68</color>
+    <color name="colorAccent">#FF6700</color>
+
+    <!-- UI -->
+    <color name="uiNormal">#00A287</color>
+    <color name="uiPressed">#007D68</color>
+    <color name="uiIconPrimary">#EBEBEB</color>
+    <color name="uiRouteDetailsBg">#EBEBEB</color>
+
+    <!-- Navigation Bar -->
+    <color name="navBarBgColor">#EBEBEB</color>
+    <color name="navBarBgBorderColor">#00A287</color>
+    <color name="navBarSeparator">#3C3C3C</color>
+    <color name="navBarIcons">#070606</color>
+    <color name="speedSignStroke">#EBEBEB</color>
+    <color name="speedSignFill">#2d9ab9</color>
+    <color name="speedSignText">#EBEBEB</color>
+
+    <!-- User Marker icons -->
+    <color name="userArrowLight">#EBEBEB</color>
+    <color name="userArrowDark">#FF6700</color>
+    <color name="userArrowBorder">#ffbcbcbc</color>
+    <color name="markerUser">#FF6700</color>
+
+    <!-- Info markers -->
+    <color name="markerBackground">#EBEBEB</color>
+    <color name="markerImportant">#F5001D</color>
+    <color name="markerRegular">#FFA200</color>
+    <color name="markerRouteSpecific">#241c1c</color>
+    <color name="markerDestination">#FF6700</color>
+
+    <!-- Traffic colors -->
+    <color name="trafficOffline">#48B9A6</color>
+    <color name="trafficNone">#48B9A6</color>
+    <color name="trafficMinor">#26A892</color>
+    <color name="trafficModerate">#FFA200</color>
+    <color name="trafficSerious">#F5001D</color>
+
+    <!-- Instruction Icons -->
+    <color name="dirMain">#3C3C3C</color>
+    <color name="dirBorder">#3C3C3C</color>
+    <color name="dirLight">#48B9A6</color>
+
+</resources>

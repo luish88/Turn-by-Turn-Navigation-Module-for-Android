@@ -1,0 +1,5 @@
+<vector android:height="24dp" android:viewportHeight="1000"
+    android:viewportWidth="1000" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillAlpha="1" android:fillColor="@color/navBarIcons" android:pathData="M500,10C229.8,10 10,229.8 10,500c0,270.2 219.8,490 490,490c270.2,0 490,-219.8 490,-490C990,229.8 770.2,10 500,10zM500,900.9C278.9,900.9 99.1,721 99.1,500C99.1,279 278.9,99.1 500,99.1C721,99.1 900.9,278.9 900.9,500C900.9,721 721,900.9 500,900.9z"/>
+    <path android:fillAlpha="1" android:fillColor="@color/navBarIcons" android:pathData="M544.6,321.8l-89.1,0l0,178.2l0,89.1l0,0l89.1,0l0,0l133.5,0l0,-89.1l-133.5,0z"/>
+</vector>

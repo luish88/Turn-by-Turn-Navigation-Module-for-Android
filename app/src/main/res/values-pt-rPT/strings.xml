@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyTbt</string>
+
+    <!-- Generic -->
+    <string name="genericOk">OK</string>
+    <string name="genericCancel">Cancel</string>
+    <string name="genericLoading">Loading…</string>
+
+    <!-- Permission Manager -->
+    <string name="permissionPromptTitle">Permissions Required</string>
+    <string name="permissionPromptMainText">This App requires the following permissions:</string>
+    <string name="permissionPromptInternet">- Internet access to request routes</string>
+    <string name="permissionPromptReadWrite">- Read files to read the map files</string>
+    <string name="permissionPromptLocation">- Access location for navigation</string>
+
+    <!-- Prompts -->
+    <string name="promptNoMapFilesTitle">Map files not found</string>
+    <string name="promptNoMapFilesText">We didn\'t find any map files in your device.\nPlease make sure your map files are located in</string>
+    <string name="promptInvalidMapFilesTitle">Invalid map files</string>
+    <string name="promptInvalidMapFilesText">The map was unable to load. Please make sure you have all the required map files in </string>
+    <string name="promptMultipleMapFilesTitle">Select the map to load</string>
+    <string name="promptLoadingMap">Loading Map…</string>
+    <string name="promptNoGpsTitle">GPS Not Found</string>
+    <string name="promptNoGpsText">You device\'s location service is deactivated.\nPlease turn it on in order to use the navigation.</string>
+    <string name="waitingGpsTitle">Looking for GPS signal</string>
+    <string name="promptDriveTitle">Driving</string>
+    <string name="promptDriveText">Choose an option</string>
+    <string name="promptDriveDriveHere">Drive here</string>
+    <string name="promptDriveSearch">Search for a destination</string>
+    <string name="promptDriveCancel">Cancel current route</string>
+    <string name="promptDriveSettings">View settings</string>
+
+    <!-- Route Details -->
+    <string name="route_details_title">Route Details</string>
+    <string name="route_details_destination">Destination:</string>
+    <string name="route_details_no_path">No route</string>
+    <string name="route_details_start">Start</string>
+    <string name="route_details_start_suffix">from</string>
+
+    <!-- Navigation bar -->
+    <string name="navbar_distance_prefix">A</string>
+    <string name="navbar_distance_suffix_meters">m</string>
+    <string name="navbar_distance_suffix_kilometers">km</string>
+
+    <!-- Voice Navigation -->
+    <string name="voice_error_new_route">Não foi possível calcular o seu percurso</string>
+    <string name="voice_error_updating_route">Não foi possível ajustar o seu percurso</string>
+    <string name="voice_distance_prefix">A cerca de</string>
+    <string name="voice_distance_metric_meters">metros</string>
+    <string name="voice_distance_metric_single_kilometer">quilómetro</string>
+    <string name="voice_distance_metric_kilometers">quilómetros</string>
+    <string name="voice_distance_metric_and_a_half">e meio</string>
+    <string name="voice_start">inicie a sua viagem</string>
+    <string name="voice_start_destination_prefix">com destino a</string>
+    <string name="voice_readjusted">o seu percurso foi reajustado</string>
+    <string name="voice_continue">continue em frente.</string>
+    <string name="voice_destination_distant">chegará ao seu destino</string>
+    <string name="voice_destination_immediate">chegou ao seu destino</string>
+    <string name="voice_keep_left">mantenha-se à esquerda</string>
+    <string name="voice_keep_right">mantenha-se à direita</string>
+    <string name="voice_leave_roundabout">saia da rotunda</string>
+    <string name="voice_enter_roundabout">na rotunda</string>
+    <string name="voice_enter_roundabout_with_exit">saia na</string>
+    <string name="voice_enter_roundabout_exit_suffix">saída</string>
+    <string name="voice_turn_back">volte para trás</string>
+    <string name="voice_turn_left">vire à esquerda</string>
+    <string name="voice_turn_right">vire à direita</string>
+    <string name="voice_turn_slight_left">vire à esquerda</string>
+    <string name="voice_turn_slight_right">vire à direita</string>
+    <string name="voice_turn_sharp_left">vire à esquerda</string>
+    <string name="voice_turn_sharp_right">vire à direita</string>
+    <string name="voice_exit_ramp_right">tome a saída à sua direita</string>
+    <string name="voice_exit_ramp_left">tome a saída à sua esquerda</string>
+    <string name="voice_enter_ramp_right">entre na rampa à sua direita</string>
+    <string name="voice_enter_ramp_left">entre na rampa à sua esquerda</string>
+    <string name="voice_u_turn">faça inversão de marcha</string>
+    <string name="voice_road_name_change_immediate">entrou na</string>
+    <string name="voice_road_name_change_distant">entrará na</string>
+    <string name="voice_reached_destination">Chegou ao seu destino</string>
+</resources>
