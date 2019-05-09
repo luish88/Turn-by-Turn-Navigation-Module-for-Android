@@ -55,14 +55,12 @@ I created a script to prepare the map files automatically. The script and the in
 
 ## Key features
 #### - May work enterely offline
-
-    The system is prepared to work enterely offline, if required
+The system is prepared to work enterely offline, if required
     
 #### - Tries to use as little mobile data as possible
-
-    Since the core part of the navigation functionality was developed for another application, it is bound to some of the requirements defined for that app
+Since the core part of the navigation functionality was developed for another application, it is bound to some of the requirements defined for that app
     
-    That is why the routing system tries to use as little mobile data as possible, by performing most route adjustments offline using the Graphhopper library
+That is why the routing system tries to use as little mobile data as possible, by performing most route adjustments offline using the Graphhopper library
     
 #### - The routing system was developed to use Adapters, so you can make your own adapter for any Routing API
 
