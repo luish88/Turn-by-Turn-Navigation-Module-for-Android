@@ -5,26 +5,28 @@
 
 
 
-## Setting up
-### Set your Bing Maps API key (optional)
-If you want to use Bing's routing API, please set your API key in the NavConfig.class.
+## Quick setup
+### 1. Set your API keys
+If you want to use Bing's routing API, please set it in the NavConfig.class.
 You may build your own adapter for your desired routing API as well.
+Note that this is not required to use the app. It will calculate routes in offline mode if it is not able to perform a request to a remote API.
 
 ![](Readme-imgs/key.png)
 
 
-### Use the provided maps
-As an example, a map of Portugal is provided. You can find the map and graph files under \Maps
-To use them, copy all the files in the \Maps\Portugal folder to the download\TbtModuleMaps\Portugal folder in your device (if there is no TbTModuleMaps folder in your device, create it).
-
-Please note that the Portugal.map file size is too large, so it is compressed. Please unzip it before using.
+Don't forget to set you Google API key in the manifest as well.
 
 
-### Prepare and use your own maps
-I created a script to prepare map files automatically. The script, as well as some instructions to prepare the maps manually are provided in the project's \Maps folder.
+### 2. Use the provided maps
+As an example, a map of Portugal is provided. You can find the map and matching graph files under "\Maps".
+Since the main map file (Portugal.map) was over 100MB, it was compressed. Unzip it before using.
+
+Copy all the files in the "\Maps\Portugal" folder (after unzipping Portugal.map, for a total of 9 files) to the "download\TbtModuleMaps\Portugal" folder in your device.
+
+You can also specify another location for the maps in the NavConfig.class.
 
 
-## Using
+### 3. Start the app
 Start the app and, in overview mode, longpress the map itself until the drive promp appears. Choose one of the options to start driving:
 
 ![](Readme-imgs/drive.jpg)
@@ -35,17 +37,20 @@ Change to turn-by-turn mode if you want:
 ![](Readme-imgs/tbt.jpg)
 
 
-You can view a list of the instructions any time you are navigating by pressing the navigation bar in turn-by-turn mode:
+You can view a list of the instructions at any time you are navigating by pressing the navigation bar in turn-by-turn mode:
 
 ![](Readme-imgs/list.jpg)
 
 
 
 ## History and goal
-This project was developed from a navigation proof of concept I created for a larger comercial project during an internship. After the intership, I asked the company if I could do whatever I wanted with the code I developed, and they accepted. So I used it as a learning opportunity and (hopefully) created a turn-by-turn navigation module for Android applications, which anybody can use and improve.
+This project was developed from a navigation proof of concept I created for a larger comercial project during an internship. After the intership, I asked the company if they would mind if I released the code. They didn't. So I used it as a learning opportunity and (hopefully) created a turn-by-turn navigation module for Android applications, which anybody can use and improve.
 
 The goal is to develop a free open-source turn-by-turn navigation alternative which can be integrated in any Android application.
 
+
+## Using your own maps
+I created a script to prepare the map files automatically. The script and the instructions to use it are provided in the project's "\Maps" folder.
 
 
 ## Key features
